@@ -1,0 +1,72 @@
+@media screen and (max-width:992px) {
+    .container >div {
+        width: 20%;
+        margin: 0!important;
+        display: block;
+    }
+    header nav .navbr .flex{
+        flex-direction: column;
+        align-items:start;
+    }
+    header nav .navbr ul .loc{
+        display: none;
+    }
+    header .navbr .menu .first-menu{
+        flex-direction: column;
+    }
+    header .header .header-right a {
+        padding-top: 6px;
+    }
+    header .header .header-left {
+        display: none;
+    }
+    header .header .rc {
+        display: inline-flex;
+        font-size: 128%;
+        margin: 0 auto 0 0;
+    }
+    header .header .rc i {
+        margin-left: 18%;
+        cursor: pointer;
+    }
+    header nav .navbr {
+        display: none;
+    }
+    .container div:hover > .navbr {
+        display: block;
+    }
+    header nav a .rc {
+        display: block;
+        font-size: 181%;
+        margin-right: 12px;
+        cursor: pointer;
+    }
+
+}
+@media screen and (max-width:480px) {
+    .submenu{
+        flex-direction: column;
+    }
+    .mega-menu .menu-list{
+        width:100%;
+    }
+    .mega-menu{
+    top: 17.3em
+    }
+    header .header{
+    flex-direction: column;}
+    header .header .header-right{
+        flex-direction: column;}
+    header .header .header-right .logo {
+            margin: auto;
+    }
+    body > header > div > div.header-right > div > .src-box{
+        width: auto;
+    }
+    header .header .rc {
+        display: inline-flex;
+        font-size: 128%;
+        margin: auto;
+    }
+
+}
